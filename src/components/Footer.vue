@@ -149,11 +149,11 @@
         <a href="https://www.facebook.com/AhmedAboAlhamad/" target="_blank"
           ><i id="face" class="fab fa-facebook-f"></i
         ></a>
-        <a href="#" @click="copyed"
+        <a href="tel:+201157780865" @click="copyed"
           ><i id="what" class="fab fa-whatsapp"></i
         ></a>
         <a
-          href="https://mail.google.com/mail/u/0/#chats/FMfcgxwDrlWwttJGlwPcKvSskKcSGwXs"
+          href="mailto:a.mohamed00019@gmail.com"
           target="_blank"
           ><i id="gmail" class="fab fa-google-plus-g"></i
         ></a>

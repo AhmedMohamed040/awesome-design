@@ -42,7 +42,7 @@
               <div class="timeline">
                 <i class="fa fab fa-google-plus-g"></i>
                 <a
-                  href="https://mail.google.com/mail/u/0/#chats/FMfcgxwDrlWwttJGlwPcKvSskKcSGwXs"
+                  href="mailto:a.mohamed00019@gmail.com"
                   title="gmail"
                   target="_blank"
                   class="timeline-content"
@@ -56,7 +56,8 @@
               </div>
               <div class="timeline">
                 <i class="fa fa-whatsapp"></i>
-                <div
+                <a
+                href="tel:+201157780865"
                   @click="copyed"
                   title="copy WhatsApp"
                   class="timeline-content"
@@ -66,7 +67,7 @@
                     we will are hapy to call us for our services, Contact us at
                     any time through our Whatsapp number
                   </p>
-                </div>
+                </a>
               </div>
             </div>
           </div>
@@ -82,7 +83,7 @@
           <i class="fab fa-facebook-f" style="color: #3b5998"></i>
         </a>
         <a
-          href="https://mail.google.com/mail/u/0/#chats/FMfcgxwDrlWwttJGlwPcKvSskKcSGwXs"
+          href="mailto:a.mohamed00019@gmail.com"
           target="_blank"
           class="btn"
         >
@@ -91,7 +92,7 @@
         <a @click="copyed2" class="btn">
           <i class="fab fa-discord" style="color: #ea4c89"></i>
         </a>
-        <a @click="copyed" class="btn">
+        <a href="tel:+201157780865" @click="copyed" class="btn">
           <i class="fab fa-whatsapp" style="color: #0e76a8"></i>
         </a>
       </div>
