@@ -599,7 +599,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 1100vh;
+  width: 100%;
   padding-bottom: 19px;
 }
 

@@ -19,13 +19,13 @@ library.add(fab);
 
 Vue.config.productionTip = false;
 AOS.init({
-  offset: 100,
-  duration: 1200
+    offset: 100,
+    duration: 1200
 });
 Vue.use(VueTyperPlugin);
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount("#app");
