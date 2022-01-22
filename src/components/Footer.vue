@@ -58,7 +58,7 @@
               </g>
             </g>
           </svg>
-          <span data-aos="flip-left">Cairo, Egypt</span>
+          <span data-aos="flip-left">Bader, Egypt</span>
         </div>
         <div class="f-d2">
           <svg
@@ -105,7 +105,7 @@
               <path d="" fill="none"></path>
             </g>
           </svg>
-          <span data-aos="flip-down">silverhawk0004@gmail.com</span>
+          <span data-aos="flip-down">a.mahomed00019@gmail.com</span>
         </div>
 
         <div class="f-d3">
