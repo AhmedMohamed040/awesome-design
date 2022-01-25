@@ -58,7 +58,7 @@
               </g>
             </g>
           </svg>
-          <span data-aos="flip-left">Bader, Egypt</span>
+          <span data-aos="flip-left">Badr, Egypt</span>
         </div>
         <div class="f-d2">
           <svg
