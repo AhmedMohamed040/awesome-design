@@ -1,4 +1,4 @@
-# Profile ♣ 
+# The group sit ♣ 
 
 
 ## Project setup
