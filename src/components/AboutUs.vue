@@ -3,7 +3,7 @@
     <div
       class="us container"
       title="
-         Awesome Design is a global IT services company focusing on software
+         Awesome Design is a global IT services group focusing on software
         development, IT consulting and provides offshore outsourcing solutions
         to enterprises worldwide. At Awesome Design we believe that in order to
         benefit from offshore outsourcing, it is imperative that you continue to
@@ -12,9 +12,9 @@
     <div class="line-us">
       <div class="containr left">
         <div class="content">
-          <h2>Our company</h2>
+          <h2>Our Group</h2>
           <p>
-            About Us Awesome Design is a global IT services company focusing on
+            About Us Awesome Design is a global IT services group focusing on
             software development.
           </p>
         </div>
@@ -171,13 +171,13 @@
   right: 0;
   margin: auto;
   box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 1),
-    inset 0 0 0 1000px rgba(44, 43, 41, 0.6);
+    inset 0 0 0 1000px rgba(75, 38, 55, 0.8);
   transition: all 0.4s cubic-bezier(0.37, 0.26, 0.109, 0.2);
 }
 
 #card:hover {
   box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.9),
-    inset 0 0 0 1000px rgba(44, 43, 41, 0.4);
+    inset 0 0 0 1000px rgba(75, 38, 55, 0.7);
 }
 
 #card:hover #avatar {
@@ -234,14 +234,14 @@
 @keyframes circlenAn {
   0% {
     box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6),
-      0px 0px 0px 0px rgba(74, 67, 61, 1), 0px 0px 0px 0px rgba(74, 67, 61, 0.7),
-      0px 0px 0px 0px rgba(74, 67, 61, 0.5);
+      0px 0px 0px 0px rgba(75, 38, 55, 1), 0px 0px 0px 0px rgba(75, 38, 55, 0.7),
+      0px 0px 0px 0px rgba(75, 38, 55, 0.5);
   }
   100% {
     box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6),
-      0px 0px 0px 70px rgba(74, 67, 61, 0),
-      0px 0px 0px 200px rgba(74, 67, 61, 0),
-      0px 0px 0px 300px rgba(74, 67, 61, 0);
+      0px 0px 0px 70px rgba(75, 38, 55, 0),
+      0px 0px 0px 200px rgba(75, 38, 55, 0),
+      0px 0px 0px 300px rgba(75, 38, 55, 0);
   }
 }
 @media screen and (max-width: 600px) {

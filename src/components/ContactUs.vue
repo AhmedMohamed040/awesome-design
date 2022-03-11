@@ -20,7 +20,7 @@
                 >
                   <h3 class="title">Facebook</h3>
                   <p class="description">
-                    we will are hapy to call us for our services, Contact us at
+                    we will are happy to call us for our services, Contact us at
                     any time through our facebook page
                   </p>
                 </a>
@@ -34,7 +34,7 @@
                 >
                   <h3 class="title">Discord</h3>
                   <p class="description">
-                    we will are hapy to call us for our services, Contact us at
+                    we will are happy to call us for our services, Contact us at
                     any time through our Discord account
                   </p>
                 </div>
@@ -49,7 +49,7 @@
                 >
                   <h3 class="title">Google Plus</h3>
                   <p class="description">
-                    we will are hapy to call us for our services, Contact us at
+                    we will are happy to call us for our services, Contact us at
                     any time through our Gmail account
                   </p>
                 </a>
@@ -57,14 +57,14 @@
               <div class="timeline">
                 <i class="fa fa-whatsapp"></i>
                 <a
-                href="tel:+201157780865"
+                  href="tel:+201157780865"
                   @click="copyed"
                   title="copy WhatsApp"
                   class="timeline-content"
                 >
                   <h3 class="title">Whats App</h3>
                   <p class="description">
-                    we will are hapy to call us for our services, Contact us at
+                    we will are happy to call us for our services, Contact us at
                     any time through our Whatsapp number
                   </p>
                 </a>
@@ -82,11 +82,7 @@
         >
           <i class="fab fa-facebook-f" style="color: #3b5998"></i>
         </a>
-        <a
-          href="mailto:a.mohamed00019@gmail.com"
-          target="_blank"
-          class="btn"
-        >
+        <a href="mailto:a.mohamed00019@gmail.com" target="_blank" class="btn">
           <i class="fab fa-google-plus-g" style="color: #00acee"></i>
         </a>
         <a @click="copyed2" class="btn">
@@ -406,7 +402,7 @@ export default {
     },
     copyed2: function() {
       this.$emit("copyed2");
-    }
-  }
+    },
+  },
 };
 </script>

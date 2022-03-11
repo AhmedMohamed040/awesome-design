@@ -4,51 +4,33 @@
       <div class="row">
         <div class="col-sm col-md-6">
           <div class="pjt-card" data-aos="flip-left">
-            <a href="" class="pjt-link">
+            <a
+              href="https://todo-v.netlify.app"
+              class="pjt-link"
+              target="_blank"
+            >
               <img
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                src="../assets/images/project1.png"
                 alt="project1"
                 class="img rounded"
               />
-              <p>project 1</p></a
+              <p>V-Todo</p></a
             >
           </div>
         </div>
         <div class="col-sm col-md-6">
           <div class="pjt-card" data-aos="flip-left">
-            <a href="" class="pjt-link">
+            <a
+              href="https://list-js.netlify.app"
+              class="pjt-link"
+              target="_blank"
+            >
               <img
-                src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+                src="../assets/images/js-todo.png"
                 alt="project2"
                 class="img rounded"
               />
-              <p>project 2</p></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm col-md-6">
-          <div class="pjt-card" data-aos="flip-left">
-            <a href="" class="pjt-link">
-              <img
-                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
-                alt="project3"
-                class="img rounded"
-              />
-              <p>project 3</p></a
-            >
-          </div>
-        </div>
-        <div class="col-sm col-md-6">
-          <div class="pjt-card" data-aos="flip-left">
-            <a href="" class="pjt-link">
-              <img
-                src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1130&q=80"
-                alt="project4"
-                class="img rounded"
-              />
-              <p>project 4</p></a
+              <p>Js Todo</p></a
             >
           </div>
         </div>
@@ -129,6 +111,6 @@
 
 <script>
 export default {
-  name: "BlogComp"
+  name: "BlogComp",
 };
 </script>
