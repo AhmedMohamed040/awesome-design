@@ -1,4 +1,4 @@
-# The group sit ♣ 
+# The group site ♣ 
 
 
 ## Project setup
