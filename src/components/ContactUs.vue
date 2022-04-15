@@ -149,8 +149,8 @@
   width: 50%;
   float: left;
   padding: 20px 60px;
-  border-top: 7px solid#B3A2A2;
-  border-right: 7px solid#B3A2A2;
+  border-top: 7px solid #B3A2A2;
+  border-right: 7px solid #B3A2A2;
   border-radius: 0 30px 0 0;
   position: relative;
   right: -3.5px;
@@ -167,7 +167,7 @@
   color: white;
   text-align: center;
   font-size: 26px;
-  box-shadow: 0 0 0 2px#3578E5;
+  box-shadow: 0 0 0 2px #3578E5;
   position: absolute;
   top: -30px;
   left: 0;
@@ -257,7 +257,7 @@
 }
 
 .main-timeline .timeline:nth-child(2n) .fa {
-  box-shadow: 0 0 0 2px#7289da;
+  box-shadow: 0 0 0 2px #7289da;
 }
 
 .main-timeline .timeline:nth-child(3n) .timeline-content,
@@ -402,7 +402,7 @@ export default {
     },
     copyed2: function() {
       this.$emit("copyed2");
-    },
-  },
+    }
+  }
 };
 </script>

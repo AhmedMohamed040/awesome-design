@@ -44,6 +44,7 @@
 .ab-us {
   background-color: #e9e3f3;
 }
+
 .us {
   height: 700px;
   text-align: center;
@@ -55,6 +56,7 @@
   max-width: -webkit-fill-available;
   max-height: -webkit-fill-available;
 }
+
 /*text on the top page 
 .us p {
   padding: 30px;
@@ -73,6 +75,7 @@
   position: relative;
   padding-bottom: 40px;
 }
+
 /*line to  the us after then content */
 .line-us::after {
   content: "";
@@ -84,6 +87,7 @@
   left: 50%;
   margin-left: -3px;
 }
+
 /* Container around content */
 .containr {
   padding: 10px 40px;
@@ -91,6 +95,7 @@
   background-color: inherit;
   width: 50%;
 }
+
 /* The circles on the timeline */
 .containr::after {
   content: "";
@@ -99,7 +104,7 @@
   height: 30px;
   right: -15px;
   background-color: #e9e3f3;
-  border: 4px solid#B3A2A2;
+  border: 4px solid #B3A2A2;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -114,6 +119,7 @@
 .right {
   left: 50%;
 }
+
 /* Add arrows to the left container (pointing right) */
 .left::before {
   content: " ";
@@ -123,7 +129,7 @@
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid#4b2637;
+  border: medium solid #4b2637;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #4b2637;
 }
@@ -141,10 +147,12 @@
   border-width: 10px 10px 10px 0;
   border-color: transparent #4b2637 transparent transparent;
 }
+
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -15px;
 }
+
 /* The content */
 .content {
   padding: 20px 30px;
@@ -152,11 +160,13 @@
   position: relative;
   border-radius: 6px;
 }
+
 .content h2,
 .content p {
   color: #e9e3f3;
   font-family: "Varela Round", sans-serif;
 }
+
 #card {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: hidden;
@@ -237,6 +247,7 @@
       0px 0px 0px 0px rgba(75, 38, 55, 1), 0px 0px 0px 0px rgba(75, 38, 55, 0.7),
       0px 0px 0px 0px rgba(75, 38, 55, 0.5);
   }
+
   100% {
     box-shadow: 0px 30px 30px -25px rgba(0, 0, 0, 0.6),
       0px 0px 0px 70px rgba(75, 38, 55, 0),
@@ -244,10 +255,12 @@
       0px 0px 0px 300px rgba(75, 38, 55, 0);
   }
 }
+
 @media screen and (max-width: 600px) {
   .us {
     height: 350px;
   }
+
   /* Place the timelime to the left */
   .line-us::after {
     left: 31px;
@@ -278,26 +291,32 @@
   .right {
     left: 0%;
   }
+
   /* res text */
   .content h2 {
     font-size: 3vmax;
   }
+
   .content p {
     font-size: 2vmax;
   }
+
   /* card in small screen */
   #card {
     width: 175px;
     height: 175px;
   }
+
   #card:hover #avatar {
     width: 110px;
     height: 110px;
   }
+
   #avatar {
     width: 90px;
     height: 90px;
   }
+
   #profile h3 {
     font-size: 3.5vw;
   }
@@ -310,6 +329,6 @@
 
 <script>
 export default {
-  name: "AboutUs"
+  name: "AboutUs",
 };
 </script>
