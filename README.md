@@ -1,4 +1,4 @@
-# Profile ♣ 
+# The group site ♣ 
 
 
 ## Project setup
