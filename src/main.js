@@ -1,5 +1,4 @@
 import Vue from "vue";
-
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
@@ -24,7 +23,6 @@ AOS.init({
     duration: 1200
 });
 Vue.use(VueTyperPlugin);
-
 
 new Vue({
     router,
