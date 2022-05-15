@@ -1,21 +1,15 @@
 <template>
   <div class="ab-us">
-    <div
-      class="us container"
-      title="
-         Awesome Design is a global IT services group focusing on software
-        development, IT consulting and provides offshore outsourcing solutions
-        to enterprises worldwide. At Awesome Design we believe that in order to
-        benefit from offshore outsourcing, it is imperative that you continue to
-        control the system."
-    ></div>
+    <div class="us container"></div>
     <div class="line-us">
       <div class="containr left">
         <div class="content">
-          <h2>Our Group</h2>
+          <h2>Who we are</h2>
           <p>
-            About Us Awesome Design is a global IT services group focusing on
-            software development.
+            We're a small, team of developers created at 2021 by Ahmed Mohamed,
+            with the main goal of trying to gain experience get new skills,
+            building apps and helping each other by improving ourselves day by
+            day.
           </p>
         </div>
       </div>
@@ -23,8 +17,9 @@
         <div class="content">
           <h2>Our Mission</h2>
           <p>
-            Our mission is very clear - provide best and fully tested products
-            and solutions for our customers.
+            This team's goal is trying to gain experience to have been building
+            some projects, expanding our skillsets, if you want to join to us,
+            we always welcoming new members, feel free to tell us at any time.
           </p>
         </div>
       </div>
@@ -41,6 +36,7 @@
 
 <style>
 /*4b2637-7D2941-E9E3F3-B3A2A2*/
+
 .ab-us {
   background-color: #e9e3f3;
 }
@@ -104,7 +100,7 @@
   height: 30px;
   right: -15px;
   background-color: #e9e3f3;
-  border: 4px solid #B3A2A2;
+  border: 4px solid #b3a2a2;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
