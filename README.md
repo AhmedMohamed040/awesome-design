@@ -1,4 +1,4 @@
-# The group site ♣ 
+# The Team site ♣ 
 
 
 ## Project setup
