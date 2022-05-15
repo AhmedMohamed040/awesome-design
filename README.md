@@ -1,5 +1,3 @@
-# The Team site ♣ 
-
 
 ## Project setup
 ```
